@@ -1,0 +1,100 @@
+.main
+{
+    margin: 0;
+    min-width: 70%;
+    /* width:70%; */
+    max-height:min-content;
+    text-align: center;
+    justify-content: center;
+    color :antiquewhite;
+    background: url("./sec.png");
+    animation-name: main;
+    animation-duration: 10s;
+    animation-iteration-count:unset;
+    
+     
+  
+
+
+    
+}
+@keyframes main
+{
+    0%
+    {
+        background: url("./web/web.jpeg");
+    }
+    
+    100%
+    {
+        background: url("./sec.png");
+    }
+
+    
+}
+.sidebar
+{
+    text-align: center;
+    margin-top: 0px;
+    height: 400px;
+    width: 30%;
+    float: right;
+    justify-content: center;
+    background:#ff6e7f;
+    align-items: center;
+    font-size: 20px;
+    animation-name: musya;
+    animation-duration: 10000ms;
+    animation-delay: 0;
+    
+}
+@keyframes btn
+{
+    10%
+    {
+        color:red;
+
+    }
+}
+@keyframes musya
+{
+    0%
+    {
+        background-color: #ff6e7f;
+        
+    }
+   50%
+    {
+        background-color: #12044b;
+        animation-delay: 2s;
+        
+        
+    }
+    80%
+    {
+        
+        background-color: #13044b;
+        color:aliceblue;
+    }
+
+}
+.btn
+{
+    color:#116600;
+    background-color: #939393;
+    font-size: 25px;
+    border-radius: 30%;
+}
+.btn:hover
+{
+    color:#e12121;
+    zoom: 120%;
+    
+}
+.footer
+{
+    margin-bottom: 0px;
+    background: linear-gradient(to right , #e1644b,#13044b);
+    width: 100%;
+    height: 100px;
+}

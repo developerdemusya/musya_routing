@@ -1,0 +1,35 @@
+h1{
+    color:peru
+}
+select
+{
+    background-color: yellowgreen;
+}
+.items
+{
+color: white;
+width: 100%;
+margin-top: 0px;
+display: flex;
+margin-bottom: 25px;
+;
+}
+.item1
+{
+    width: 50%;
+    background-color: #13044b;
+    padding-left: 10px
+    
+    }
+.item2
+{
+   
+    float: left;
+    margin-left: 20px;
+    padding: 5px;
+    width: 50%;
+    height: 200px;
+    background-color: darkcyan;
+    
+    
+}
